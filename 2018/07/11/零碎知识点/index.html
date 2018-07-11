@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="php,javascript,html,css," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Ubuntu以管理员身份打开文件夹打开终端，输入：1$ sudo nautilus Python常见字符串操作将文件中py2的print格式改为py3的12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-&quot;&quot;&quot;Created on Sat May 12 21:39">
+<meta name="keywords" content="php,javascript,html,css">
+<meta property="og:type" content="article">
+<meta property="og:title" content="零碎知识点">
+<meta property="og:url" content="http://yoursite.com/2018/07/11/零碎知识点/index.html">
+<meta property="og:site_name" content="宋不争">
+<meta property="og:description" content="Ubuntu以管理员身份打开文件夹打开终端，输入：1$ sudo nautilus Python常见字符串操作将文件中py2的print格式改为py3的12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-&quot;&quot;&quot;Created on Sat May 12 21:39">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/images/py2_3_1.jpg">
+<meta property="og:image" content="http://yoursite.com/images/py2_3_22.jpg">
+<meta property="og:image" content="http://yoursite.com/images/py2_3_333.jpg">
+<meta property="og:updated_time" content="2018-07-11T13:53:54.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="零碎知识点">
+<meta name="twitter:description" content="Ubuntu以管理员身份打开文件夹打开终端，输入：1$ sudo nautilus Python常见字符串操作将文件中py2的print格式改为py3的12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-&quot;&quot;&quot;Created on Sat May 12 21:39">
+<meta name="twitter:image" content="http://yoursite.com/images/py2_3_1.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/07/11/零碎知识点/"/>
+
+
+
+
+
+  <title>零碎知识点 | 宋不争</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+	
+	<a href="https://github.com/mrssz/" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">宋不争</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">其实我们都简单的跟个孩子似的</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-emotion">
+          <a href="/emotion/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            随笔
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/11/零碎知识点/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="宋不争">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/test.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="宋不争">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">零碎知识点</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-11T21:57:45+08:00">
+                2018-07-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/php/" itemprop="url" rel="index">
+                    <span itemprop="name">php</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="Ubuntu以管理员身份打开文件夹"><a href="#Ubuntu以管理员身份打开文件夹" class="headerlink" title="Ubuntu以管理员身份打开文件夹"></a>Ubuntu以管理员身份打开文件夹</h2><p>打开终端，输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo nautilus</span><br></pre></td></tr></table></figure></p>
+<h2 id="Python常见字符串操作"><a href="#Python常见字符串操作" class="headerlink" title="Python常见字符串操作"></a>Python常见字符串操作</h2><h3 id="将文件中py2的print格式改为py3的"><a href="#将文件中py2的print格式改为py3的" class="headerlink" title="将文件中py2的print格式改为py3的"></a>将文件中py2的print格式改为py3的</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="string">""</span><span class="string">"</span></span><br><span class="line"><span class="string">Created on Sat May 12 21:39:58 2018</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">@author: ssz</span></span><br><span class="line"><span class="string">"</span><span class="string">""</span></span><br><span class="line">import os</span><br><span class="line"></span><br><span class="line">py_file = []</span><br><span class="line">py_file_path = []</span><br><span class="line">work_dir = <span class="string">'C:/Users/hlssz/Desktop/krother-python-for-biologists-e47cf55735c7/02-data_management/04-parsing_data/test/'</span></span><br><span class="line"><span class="keyword">for</span> parent, dirnames, filenames <span class="keyword">in</span> os.walk(work_dir):</span><br><span class="line">    <span class="keyword">for</span> filename <span class="keyword">in</span> filenames:</span><br><span class="line">        file_path = os.path.join(parent, filename)</span><br><span class="line">        <span class="keyword">if</span> filename[len(filename)-3:len(filename)] == <span class="string">'.py'</span>:</span><br><span class="line">            py_file.append(filename)</span><br><span class="line">            py_file_path.append(file_path)</span><br><span class="line"><span class="comment">#print(py_file)</span></span><br><span class="line"><span class="comment">#print(py_file_path)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> modi_file <span class="keyword">in</span> py_file:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">'modifile:'</span>,modi_file)</span><br><span class="line">    out_put = []</span><br><span class="line">    <span class="keyword">for</span> line <span class="keyword">in</span> open(<span class="string">'C:/Users/hlssz/Desktop/krother-python-for-biologists-e47cf55735c7/02-data_management/04-parsing_data/test/'</span>+ modi_file):</span><br><span class="line">        length = line.strip()</span><br><span class="line">        <span class="comment">#print(length)</span></span><br><span class="line">        <span class="keyword">if</span> <span class="string">'print'</span> <span class="keyword">in</span> length:</span><br><span class="line">            <span class="comment">#print('FIND:PRINT:',length.find('print'))</span></span><br><span class="line">            <span class="comment">#print(length)</span></span><br><span class="line">            <span class="comment">#print(length[length.find('print')])</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'原始length：'</span>,length)</span><br><span class="line">            lg = list(length)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'变为list后的length:'</span>,lg)</span><br><span class="line">            lg[length.find(<span class="string">'print'</span>)+5] = <span class="string">'('</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'前缀修改后的lg:'</span>,lg)</span><br><span class="line">            length = <span class="string">''</span>.join(lg)</span><br><span class="line">            length = length+<span class="string">')'</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'修改完后缀的length:'</span>,length)</span><br><span class="line">        out_put.append(length + <span class="string">'\n'</span>)</span><br><span class="line">    open(<span class="string">'C:/Users/hlssz/Desktop/krother-python-for-biologists-e47cf55735c7/02-data_management/04-parsing_data/test/'</span>+ modi_file,<span class="string">'w'</span>).writelines(out_put)</span><br></pre></td></tr></table></figure>
+<p><img src="/images/py2_3_1.jpg" alt="“结果”"><br><img src="/images/py2_3_22.jpg" alt="“结果”"><br><img src="/images/py2_3_333.jpg" alt="“结果”"></p>
+<h2 id="PHP与JavaScript数据交互"><a href="#PHP与JavaScript数据交互" class="headerlink" title="PHP与JavaScript数据交互"></a>PHP与JavaScript数据交互</h2><p>1、php直接向JavaScript传递参数变量<br>本质，php向客户端显示第一变量值，为JavaScript代码，然后JavaScript代码发生作用。<br>$one =1;<br>alert(&lt;?php echo $one; ?&gt;);<br>有时候会用<script src="xxx.php?id=1"></script>这种形式。</p>
+<p>举一个简单的例子来说明:<br>如在页面a.html中用下面这句调用:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"b.php?action=test"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> &gt;</span><br><span class="line">alert(jstext);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
+<p>在b.php中有这样一段PHP代码:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$action</span>=<span class="variable">$_GET</span>[<span class="string">'action'</span>];</span><br><span class="line">//<span class="built_in">echo</span> <span class="string">"var jstext='<span class="variable">$action</span>'"</span>; //输出一句JS语句,生成一个JS变量,并赋颠值为PHP变量 <span class="variable">$action</span>的值</span><br><span class="line">//<span class="built_in">echo</span> <span class="string">"var jstext='aa'"</span>;</span><br><span class="line"><span class="built_in">echo</span> <span class="string">"var jstext="</span>.<span class="string">"'<span class="variable">$action</span>'"</span>;</span><br></pre></td></tr></table></figure></p>
+<p>当执行a.html文件时,就会调用b.php文件,并将b.php文件的输出作为JS语句来执行,所以此处会弹出一个提示框,内容为JS变量jstext的值,也就是在PHP文件中赋给jstext的值.<br>小结:在HTML里用JS 调用文件的方式调PHP文件,则PHP文件的输出将会被调用页作为JS的代码来用.</p>
+<p>2、在php中向js传递值<br>实例：注册成功后生成对应的文件夹以及文件并在PHP文件中使用JavaScript进行跳转：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$res_insert</span>)</span><br><span class="line">&#123;  </span><br><span class="line">	<span class="built_in">echo</span> <span class="string">"&lt;script&gt;alert('注册成功！'); &lt;/script&gt;"</span>; </span><br><span class="line">	mkdir (<span class="variable">$user</span>); </span><br><span class="line">	<span class="variable">$fp</span> = fopen (<span class="variable">$user</span>.<span class="string">'/'</span>.<span class="variable">$user</span>.<span class="string">".html"</span>,<span class="string">"a"</span>); </span><br><span class="line">	fclose (<span class="variable">$fp</span>); </span><br><span class="line">	<span class="variable">$url</span> = <span class="variable">$user</span>.<span class="string">'/'</span>.<span class="variable">$user</span>.<span class="string">'.html'</span>; </span><br><span class="line">	<span class="built_in">echo</span> <span class="string">"&lt;script language='javascript' type='text/javascript'&gt;"</span>;</span><br><span class="line">	<span class="built_in">echo</span> <span class="string">"window.location.href='<span class="variable">$url</span>'"</span>; </span><br><span class="line">	<span class="built_in">echo</span> <span class="string">"&lt;/script&gt;"</span>;  				</span><br><span class="line">&#125;  </span><br><span class="line"><span class="keyword">else</span>  </span><br><span class="line">&#123;  </span><br><span class="line">	<span class="built_in">echo</span> <span class="string">"&lt;script&gt;alert('系统繁忙，请稍候！'); history.go(-1);&lt;/script&gt;"</span>;  </span><br><span class="line">&#125; </span><br><span class="line">*/</span><br></pre></td></tr></table></figure></p>
+<p>以.php文件结尾的页面本质上还是html。我们可以在&lt;？php ？》标签范围外直接写javascript：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line"><span class="built_in">echo</span> <span class="string">'hello'</span>;</span><br><span class="line">?&gt;</span><br><span class="line">/*</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line">   alert(<span class="string">"alert"</span>);</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">*/</span><br></pre></td></tr></table></figure></p>
+<p>过渡法：php向html输出值，js获取html值。</p>
+<p>3、js向php传递值或参数<br>js获取html的值或参数后，用ajax、或表单、或url跳转，向php页面传递值或参数。这是常见的办法。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var commol=$(<span class="string">'#commentlist'</span>);//alert(commol.length);</span><br><span class="line">var ajaxposturl=siteurl+<span class="string">'/comm-ajax'</span>;//alert(commajax);</span><br><span class="line">var pid = commol.attr(<span class="string">'rel'</span>);  //alert(pid);</span><br><span class="line">var per = commol.attr(<span class="string">'title'</span>); //alert(per);</span><br><span class="line">var maxpage = $(<span class="string">'#commpages'</span>).attr(<span class="string">'rel'</span>);  //alert(maxpage);</span><br><span class="line"></span><br><span class="line">commol.load(ajaxposturl,&#123;pageid:pid,perpage:per,paged:1&#125;);</span><br></pre></td></tr></table></figure></p>
+<h2 id="JavaScript获取内容"><a href="#JavaScript获取内容" class="headerlink" title="JavaScript获取内容"></a>JavaScript获取内容</h2><p>获取HTML元素3个方法比较：document.getElementsByName()、document.getElementById()、document.getElementsByTagName()<br>document.getElementsByName()    是根据控件名称获取这个控件对象，因为控件名称可以相同，返回的是一个对象数组。<br>document.getElementById()      是根据控件ID获取这个控件对象，因为控件ID唯一，返回的是一个对象。<br>document.getElementsByTagName() 是根据控件TAG获取这个控件对象，返回的是一个对象数组。<br>例如：<br>HTML中有控件如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;input <span class="built_in">type</span>=<span class="string">"radio"</span> id=<span class="string">"radio1"</span> checked=<span class="string">"checked"</span> name=<span class="string">"radiogroup1"</span>  value=<span class="string">"1"</span>/&gt; </span><br><span class="line">&lt;input <span class="built_in">type</span>=<span class="string">"radio"</span> id=<span class="string">"radio2"</span> name=<span class="string">"radiogroup1"</span> value=<span class="string">"2"</span>/&gt; </span><br><span class="line">&lt;input <span class="built_in">type</span>=<span class="string">"radio"</span> id=<span class="string">"radio3"</span> name=<span class="string">"radiogroup1"</span> value=<span class="string">"3"</span>/&gt;</span><br></pre></td></tr></table></figure></p>
+<p>则：<br> document.getElementsByName(‘radiogroup1’) 取得的是这三个控件，可以用      document.getElementsByName(‘radiogroup1’)[0] 取得的是第一个控件。<br> document.getElementById(‘radio1’)取得的是第一个控件，<br> document.getElementsByTagName(‘input’) 取得的是这三个控件，<br>可以用document.getElementsByTagName(‘input’)[0] 取得的是第一个控件。<br>getElementsByName(‘delID’)返回的是所有名称为’delID’的控件组成的数组，数组就是一种集合。</p>
+<h2 id="Redis知识点"><a href="#Redis知识点" class="headerlink" title="Redis知识点"></a>Redis知识点</h2><h3 id="Redis安装后任何-redis-gt-出现错误"><a href="#Redis安装后任何-redis-gt-出现错误" class="headerlink" title="Redis安装后任何$redis-&gt;()出现错误"></a>Redis安装后任何$redis-&gt;()出现错误</h3><p>解决措施：重启Redis</p>
+<h3 id="PHP连接Redis"><a href="#PHP连接Redis" class="headerlink" title="PHP连接Redis"></a>PHP连接Redis</h3><p>Redis安装：<a href="https://jingyan.baidu.com/article/7f766daff725cf4101e1d0d1.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/7f766daff725cf4101e1d0d1.html</a><br>驱动:<a href="https://github.com/phpredis/phpredis/downloads" target="_blank" rel="noopener">https://github.com/phpredis/phpredis/downloads</a><br>使用教程：<a href="https://www.cnblogs.com/lhat/p/6402472.html" target="_blank" rel="noopener">https://www.cnblogs.com/lhat/p/6402472.html</a></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/php/" rel="tag"># php</a>
+          
+            <a href="/tags/javascript/" rel="tag"># javascript</a>
+          
+            <a href="/tags/html/" rel="tag"># html</a>
+          
+            <a href="/tags/css/" rel="tag"># css</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/07/11/装饰器与必闭包/" rel="next" title="装饰器与闭包">
+                <i class="fa fa-chevron-left"></i> 装饰器与闭包
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/test.jpg"
+                alt="宋不争" />
+            
+              <p class="site-author-name" itemprop="name">宋不争</p>
+              <p class="site-description motion-element" itemprop="description">ML学习之旅</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu以管理员身份打开文件夹"><span class="nav-number">1.</span> <span class="nav-text">Ubuntu以管理员身份打开文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python常见字符串操作"><span class="nav-number">2.</span> <span class="nav-text">Python常见字符串操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#将文件中py2的print格式改为py3的"><span class="nav-number">2.1.</span> <span class="nav-text">将文件中py2的print格式改为py3的</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PHP与JavaScript数据交互"><span class="nav-number">3.</span> <span class="nav-text">PHP与JavaScript数据交互</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript获取内容"><span class="nav-number">4.</span> <span class="nav-text">JavaScript获取内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Redis知识点"><span class="nav-number">5.</span> <span class="nav-text">Redis知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Redis安装后任何-redis-gt-出现错误"><span class="nav-number">5.1.</span> <span class="nav-text">Redis安装后任何$redis-&gt;()出现错误</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PHP连接Redis"><span class="nav-number">5.2.</span> <span class="nav-text">PHP连接Redis</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">宋不争</span>
+
+  
+</div>
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
