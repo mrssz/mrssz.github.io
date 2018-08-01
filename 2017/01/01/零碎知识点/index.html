@@ -90,7 +90,7 @@
 <meta property="og:image" content="http://yoursite.com/images/py2_3_1.jpg">
 <meta property="og:image" content="http://yoursite.com/images/py2_3_22.jpg">
 <meta property="og:image" content="http://yoursite.com/images/py2_3_333.jpg">
-<meta property="og:updated_time" content="2018-07-31T10:39:28.866Z">
+<meta property="og:updated_time" content="2018-08-01T08:00:46.475Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="零碎知识点">
 <meta name="twitter:description" content="Ubuntu以管理员身份打开文件夹打开终端，输入：1$ sudo nautilus Python常见字符串操作将文件中py2的print格式改为py3的12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-&quot;&quot;&quot;Created on Sat May 12 21:39">
@@ -383,6 +383,11 @@
 <p>则：<br> document.getElementsByName(‘radiogroup1’) 取得的是这三个控件，可以用      document.getElementsByName(‘radiogroup1’)[0] 取得的是第一个控件。<br> document.getElementById(‘radio1’)取得的是第一个控件，<br> document.getElementsByTagName(‘input’) 取得的是这三个控件，<br>可以用document.getElementsByTagName(‘input’)[0] 取得的是第一个控件。<br>getElementsByName(‘delID’)返回的是所有名称为’delID’的控件组成的数组，数组就是一种集合。</p>
 <h2 id="Redis知识点"><a href="#Redis知识点" class="headerlink" title="Redis知识点"></a>Redis知识点</h2><h3 id="Redis安装后任何-redis-gt-出现错误"><a href="#Redis安装后任何-redis-gt-出现错误" class="headerlink" title="Redis安装后任何$redis-&gt;()出现错误"></a>Redis安装后任何$redis-&gt;()出现错误</h3><p>解决措施：重启Redis</p>
 <h3 id="PHP连接Redis"><a href="#PHP连接Redis" class="headerlink" title="PHP连接Redis"></a>PHP连接Redis</h3><p>Redis安装：<a href="https://jingyan.baidu.com/article/7f766daff725cf4101e1d0d1.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/7f766daff725cf4101e1d0d1.html</a><br>驱动:<a href="https://github.com/phpredis/phpredis/downloads" target="_blank" rel="noopener">https://github.com/phpredis/phpredis/downloads</a><br>使用教程：<a href="https://www.cnblogs.com/lhat/p/6402472.html" target="_blank" rel="noopener">https://www.cnblogs.com/lhat/p/6402472.html</a></p>
+<h2 id="Windows右键添加打开命令行："><a href="#Windows右键添加打开命令行：" class="headerlink" title="Windows右键添加打开命令行："></a>Windows右键添加打开命令行：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\cmd_here]</span><br><span class="line">@=<span class="string">"打开命令行"</span></span><br><span class="line"><span class="string">"Icon"</span>=<span class="string">"cmd.exe"</span></span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\cmd_here\<span class="built_in">command</span>]</span><br><span class="line">@=<span class="string">"\"C:\\Windows\\System32\\cmd.exe\""</span></span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\cmdPrompt]</span><br><span class="line">@=<span class="string">"打开命令行"</span></span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\cmdPrompt\<span class="built_in">command</span>]</span><br><span class="line">@=<span class="string">"\"C:\\Windows\\System32\\cmd.exe\" \"cd %1\""</span></span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd_here]</span><br><span class="line">@=<span class="string">"打开命令行"</span></span><br><span class="line"><span class="string">"Icon"</span>=<span class="string">"cmd.exe"</span></span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd_here\<span class="built_in">command</span>]</span><br><span class="line">@=<span class="string">"\"C:\\Windows\\System32\\cmd.exe\""</span></span><br></pre></td></tr></table></figure>
+<h2 id="各种HTML锚点跳转方式："><a href="#各种HTML锚点跳转方式：" class="headerlink" title="各种HTML锚点跳转方式："></a>各种HTML锚点跳转方式：</h2><h3 id="1-js控制锚点跳转"><a href="#1-js控制锚点跳转" class="headerlink" title="1 js控制锚点跳转"></a>1 js控制锚点跳转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;a name=<span class="string">"anchor"</span>&gt;&lt;/a&gt;</span><br><span class="line">location.hash=<span class="string">"anchor"</span>;</span><br><span class="line">不只有a其他元素也可以，比如在报表中：</span><br><span class="line">&lt;tr id=<span class="string">"tr1"</span>&gt;...&lt;/tr&gt;</span><br><span class="line">location.hash=<span class="string">"tr1"</span></span><br><span class="line">或者用jQuery的动画滚动效果：</span><br><span class="line">var id=<span class="string">"tr1"</span>;</span><br><span class="line">$(<span class="string">'html,body'</span>).animate(&#123;scrollTop: $(<span class="string">"tr#"</span>+id).offset().top&#125;, 500);</span><br></pre></td></tr></table></figure>
+<h3 id="2-html控制锚点跳转"><a href="#2-html控制锚点跳转" class="headerlink" title="2 html控制锚点跳转"></a>2 html控制锚点跳转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=<span class="string">"#btn"</span>&gt;跳转到点击位置&lt;/a&gt;</span><br><span class="line">&lt;a name=<span class="string">"btn"</span> id=<span class="string">"btn"</span> &gt; 点击&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="3-跨页面锚点跳转"><a href="#3-跨页面锚点跳转" class="headerlink" title="3 跨页面锚点跳转"></a>3 跨页面锚点跳转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=<span class="string">"123.html#btn"</span>&gt;跳到btn&lt;/a&gt;</span><br><span class="line">&lt;a name=<span class="string">"btn"</span> id=<span class="string">"btn"</span> &gt; &lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="4-js控制锚点跳转在HTML中实现方式"><a href="#4-js控制锚点跳转在HTML中实现方式" class="headerlink" title="4 js控制锚点跳转在HTML中实现方式"></a>4 js控制锚点跳转在HTML中实现方式</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=<span class="string">"divNode"</span>&gt;&lt;!-- contents --&gt;&lt;/div&gt;&lt;!-- 假设一个需要跳转到的节点 --&gt;  </span><br><span class="line">&lt;a href=<span class="string">"#"</span> onclick=<span class="string">"document.getElemetnById('divNode').scrollIntoView(true);return false;"</span>&gt;通过scrollIntoView实现锚点效果&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -419,14 +424,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/08/20/php与Ajax数据交互/" rel="next" title="PHP与Ajax数据交互">
+                <i class="fa fa-chevron-left"></i> PHP与Ajax数据交互
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/03/08/零星/" rel="prev" title="Ubuntu解压方式">
-                Ubuntu解压方式 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/02/12/Yii/" rel="prev" title="Yii框架学习笔记">
+                Yii框架学习笔记 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -508,7 +517,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -519,7 +528,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -530,7 +539,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -563,7 +572,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu以管理员身份打开文件夹"><span class="nav-number">1.</span> <span class="nav-text">Ubuntu以管理员身份打开文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python常见字符串操作"><span class="nav-number">2.</span> <span class="nav-text">Python常见字符串操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#将文件中py2的print格式改为py3的"><span class="nav-number">2.1.</span> <span class="nav-text">将文件中py2的print格式改为py3的</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PHP与JavaScript数据交互"><span class="nav-number">3.</span> <span class="nav-text">PHP与JavaScript数据交互</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript获取内容"><span class="nav-number">4.</span> <span class="nav-text">JavaScript获取内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Redis知识点"><span class="nav-number">5.</span> <span class="nav-text">Redis知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Redis安装后任何-redis-gt-出现错误"><span class="nav-number">5.1.</span> <span class="nav-text">Redis安装后任何$redis-&gt;()出现错误</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PHP连接Redis"><span class="nav-number">5.2.</span> <span class="nav-text">PHP连接Redis</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu以管理员身份打开文件夹"><span class="nav-number">1.</span> <span class="nav-text">Ubuntu以管理员身份打开文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python常见字符串操作"><span class="nav-number">2.</span> <span class="nav-text">Python常见字符串操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#将文件中py2的print格式改为py3的"><span class="nav-number">2.1.</span> <span class="nav-text">将文件中py2的print格式改为py3的</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PHP与JavaScript数据交互"><span class="nav-number">3.</span> <span class="nav-text">PHP与JavaScript数据交互</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript获取内容"><span class="nav-number">4.</span> <span class="nav-text">JavaScript获取内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Redis知识点"><span class="nav-number">5.</span> <span class="nav-text">Redis知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Redis安装后任何-redis-gt-出现错误"><span class="nav-number">5.1.</span> <span class="nav-text">Redis安装后任何$redis-&gt;()出现错误</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PHP连接Redis"><span class="nav-number">5.2.</span> <span class="nav-text">PHP连接Redis</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows右键添加打开命令行："><span class="nav-number">6.</span> <span class="nav-text">Windows右键添加打开命令行：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#各种HTML锚点跳转方式："><span class="nav-number">7.</span> <span class="nav-text">各种HTML锚点跳转方式：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-js控制锚点跳转"><span class="nav-number">7.1.</span> <span class="nav-text">1 js控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-html控制锚点跳转"><span class="nav-number">7.2.</span> <span class="nav-text">2 html控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-跨页面锚点跳转"><span class="nav-number">7.3.</span> <span class="nav-text">3 跨页面锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-js控制锚点跳转在HTML中实现方式"><span class="nav-number">7.4.</span> <span class="nav-text">4 js控制锚点跳转在HTML中实现方式</span></a></li></ol></li></ol></div>
             
 
           </div>
