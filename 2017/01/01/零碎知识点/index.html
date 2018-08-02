@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="php,javascript,html,css," />
+  <meta name="keywords" content="javascript,html,css,php," />
 
 
 
@@ -80,7 +80,7 @@
 
 
 <meta name="description" content="Ubuntu以管理员身份打开文件夹打开终端，输入：1$ sudo nautilus Python常见字符串操作将文件中py2的print格式改为py3的12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-&quot;&quot;&quot;Created on Sat May 12 21:39">
-<meta name="keywords" content="php,javascript,html,css">
+<meta name="keywords" content="javascript,html,css,php">
 <meta property="og:type" content="article">
 <meta property="og:title" content="零碎知识点">
 <meta property="og:url" content="http://yoursite.com/2017/01/01/零碎知识点/index.html">
@@ -90,7 +90,7 @@
 <meta property="og:image" content="http://yoursite.com/images/py2_3_1.jpg">
 <meta property="og:image" content="http://yoursite.com/images/py2_3_22.jpg">
 <meta property="og:image" content="http://yoursite.com/images/py2_3_333.jpg">
-<meta property="og:updated_time" content="2018-08-01T08:00:46.475Z">
+<meta property="og:updated_time" content="2018-08-02T13:21:55.088Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="零碎知识点">
 <meta name="twitter:description" content="Ubuntu以管理员身份打开文件夹打开终端，输入：1$ sudo nautilus Python常见字符串操作将文件中py2的print格式改为py3的12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-&quot;&quot;&quot;Created on Sat May 12 21:39">
@@ -388,6 +388,12 @@
 <h3 id="2-html控制锚点跳转"><a href="#2-html控制锚点跳转" class="headerlink" title="2 html控制锚点跳转"></a>2 html控制锚点跳转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=<span class="string">"#btn"</span>&gt;跳转到点击位置&lt;/a&gt;</span><br><span class="line">&lt;a name=<span class="string">"btn"</span> id=<span class="string">"btn"</span> &gt; 点击&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="3-跨页面锚点跳转"><a href="#3-跨页面锚点跳转" class="headerlink" title="3 跨页面锚点跳转"></a>3 跨页面锚点跳转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=<span class="string">"123.html#btn"</span>&gt;跳到btn&lt;/a&gt;</span><br><span class="line">&lt;a name=<span class="string">"btn"</span> id=<span class="string">"btn"</span> &gt; &lt;/a&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="4-js控制锚点跳转在HTML中实现方式"><a href="#4-js控制锚点跳转在HTML中实现方式" class="headerlink" title="4 js控制锚点跳转在HTML中实现方式"></a>4 js控制锚点跳转在HTML中实现方式</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=<span class="string">"divNode"</span>&gt;&lt;!-- contents --&gt;&lt;/div&gt;&lt;!-- 假设一个需要跳转到的节点 --&gt;  </span><br><span class="line">&lt;a href=<span class="string">"#"</span> onclick=<span class="string">"document.getElemetnById('divNode').scrollIntoView(true);return false;"</span>&gt;通过scrollIntoView实现锚点效果&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="将-Python-脚本打包成可执行文件："><a href="#将-Python-脚本打包成可执行文件：" class="headerlink" title="将 Python 脚本打包成可执行文件："></a>将 Python 脚本打包成可执行文件：</h2><p>安装PyInstaller:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install pyinstaller</span><br></pre></td></tr></table></figure></p>
+<p>使用PyInstaller:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pyinstaller demo.py</span><br><span class="line"><span class="comment">#pyinstaller -F demop.py #生成独立的exe文件</span></span><br></pre></td></tr></table></figure></p>
+<p>———— 2018 07 31</p>
+<h2 id="Python-获取当前操作系统用户名（windows与linux均可行）："><a href="#Python-获取当前操作系统用户名（windows与linux均可行）：" class="headerlink" title="Python 获取当前操作系统用户名（windows与linux均可行）："></a>Python 获取当前操作系统用户名（windows与linux均可行）：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import getpass</span><br><span class="line">getpass.getuser()</span><br></pre></td></tr></table></figure>
+<p>———— 2018 03 13</p>
+<p>## </p>
 
       
     </div>
@@ -405,13 +411,13 @@
       
         <div class="post-tags">
           
-            <a href="/tags/php/" rel="tag"># php</a>
-          
             <a href="/tags/javascript/" rel="tag"># javascript</a>
           
             <a href="/tags/html/" rel="tag"># html</a>
           
             <a href="/tags/css/" rel="tag"># css</a>
+          
+            <a href="/tags/php/" rel="tag"># php</a>
           
         </div>
       
@@ -572,7 +578,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu以管理员身份打开文件夹"><span class="nav-number">1.</span> <span class="nav-text">Ubuntu以管理员身份打开文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python常见字符串操作"><span class="nav-number">2.</span> <span class="nav-text">Python常见字符串操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#将文件中py2的print格式改为py3的"><span class="nav-number">2.1.</span> <span class="nav-text">将文件中py2的print格式改为py3的</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PHP与JavaScript数据交互"><span class="nav-number">3.</span> <span class="nav-text">PHP与JavaScript数据交互</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript获取内容"><span class="nav-number">4.</span> <span class="nav-text">JavaScript获取内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Redis知识点"><span class="nav-number">5.</span> <span class="nav-text">Redis知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Redis安装后任何-redis-gt-出现错误"><span class="nav-number">5.1.</span> <span class="nav-text">Redis安装后任何$redis-&gt;()出现错误</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PHP连接Redis"><span class="nav-number">5.2.</span> <span class="nav-text">PHP连接Redis</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows右键添加打开命令行："><span class="nav-number">6.</span> <span class="nav-text">Windows右键添加打开命令行：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#各种HTML锚点跳转方式："><span class="nav-number">7.</span> <span class="nav-text">各种HTML锚点跳转方式：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-js控制锚点跳转"><span class="nav-number">7.1.</span> <span class="nav-text">1 js控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-html控制锚点跳转"><span class="nav-number">7.2.</span> <span class="nav-text">2 html控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-跨页面锚点跳转"><span class="nav-number">7.3.</span> <span class="nav-text">3 跨页面锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-js控制锚点跳转在HTML中实现方式"><span class="nav-number">7.4.</span> <span class="nav-text">4 js控制锚点跳转在HTML中实现方式</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu以管理员身份打开文件夹"><span class="nav-number">1.</span> <span class="nav-text">Ubuntu以管理员身份打开文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python常见字符串操作"><span class="nav-number">2.</span> <span class="nav-text">Python常见字符串操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#将文件中py2的print格式改为py3的"><span class="nav-number">2.1.</span> <span class="nav-text">将文件中py2的print格式改为py3的</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PHP与JavaScript数据交互"><span class="nav-number">3.</span> <span class="nav-text">PHP与JavaScript数据交互</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript获取内容"><span class="nav-number">4.</span> <span class="nav-text">JavaScript获取内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Redis知识点"><span class="nav-number">5.</span> <span class="nav-text">Redis知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Redis安装后任何-redis-gt-出现错误"><span class="nav-number">5.1.</span> <span class="nav-text">Redis安装后任何$redis-&gt;()出现错误</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PHP连接Redis"><span class="nav-number">5.2.</span> <span class="nav-text">PHP连接Redis</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows右键添加打开命令行："><span class="nav-number">6.</span> <span class="nav-text">Windows右键添加打开命令行：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#各种HTML锚点跳转方式："><span class="nav-number">7.</span> <span class="nav-text">各种HTML锚点跳转方式：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-js控制锚点跳转"><span class="nav-number">7.1.</span> <span class="nav-text">1 js控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-html控制锚点跳转"><span class="nav-number">7.2.</span> <span class="nav-text">2 html控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-跨页面锚点跳转"><span class="nav-number">7.3.</span> <span class="nav-text">3 跨页面锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-js控制锚点跳转在HTML中实现方式"><span class="nav-number">7.4.</span> <span class="nav-text">4 js控制锚点跳转在HTML中实现方式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将-Python-脚本打包成可执行文件："><span class="nav-number">8.</span> <span class="nav-text">将 Python 脚本打包成可执行文件：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python-获取当前操作系统用户名（windows与linux均可行）："><span class="nav-number">9.</span> <span class="nav-text">Python 获取当前操作系统用户名（windows与linux均可行）：</span></a></li></ol></div>
             
 
           </div>
