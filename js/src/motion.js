@@ -78,7 +78,7 @@ $(document).ready(function () {
   sidebarToggleLines.push(sidebarToggleLine3rd);
 
   var SIDEBAR_WIDTH = '320px';
-  var SIDEBAR_DISPLAY_DURATION = 100;
+  var SIDEBAR_DISPLAY_DURATION = 50;
   var xPos, yPos;
 
   var sidebarToggleMotion = {
