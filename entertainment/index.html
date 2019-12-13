@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="Mr.S                                                                                    新游戏                                                                    继续前进                再试一次">
+<meta name="description" content="input {    display: inline-block;    background: #8f7a66;    border-radius: 3px;    padding: 0 20px;    text-decoration: none;    color: #f9f6f2;    height: 40px;    line-height: 42px;    cursor: poin">
 <meta property="og:type" content="website">
 <meta property="og:title" content="随笔">
 <meta property="og:url" content="http://yoursite.com/entertainment/index.html">
 <meta property="og:site_name" content="宋不争">
-<meta property="og:description" content="Mr.S                                                                                    新游戏                                                                    继续前进                再试一次">
+<meta property="og:description" content="input {    display: inline-block;    background: #8f7a66;    border-radius: 3px;    padding: 0 20px;    text-decoration: none;    color: #f9f6f2;    height: 40px;    line-height: 42px;    cursor: poin">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-12-13T11:44:14.836Z">
+<meta property="og:updated_time" content="2019-12-13T11:48:39.017Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="随笔">
-<meta name="twitter:description" content="Mr.S                                                                                    新游戏                                                                    继续前进                再试一次">
+<meta name="twitter:description" content="input {    display: inline-block;    background: #8f7a66;    border-radius: 3px;    padding: 0 20px;    text-decoration: none;    color: #f9f6f2;    height: 40px;    line-height: 42px;    cursor: poin">
 
 
 
@@ -289,7 +289,576 @@
       <div class="post-body">
         
         
-          <div class="container"><br>    <div class="heading"><br>        <h1 class="title">Mr.S</h1><br>        <div class="scores-container"><br>            <div class="score-container"><br>                <div class="score-addition"></div><br>            </div><br>            <div class="best-container"></div><br>        </div><br>    </div><br>    <div class="above-game"><br>        <a class="restart-button">新游戏</a><br>    </div><br>    <div class="game-container"><br>        <div class="game-message"><br>            <p><br>            </p><br>            <div class="lower"><br>                <a class="keep-playing-button">继续前进</a><br>                <a class="retry-button">再试一次</a><br>                <div class="score-sharing"></div><br>            </div><br>        </div><br>        <div class="grid-container"><br>            <div class="grid-row"><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>            </div><br>            <div class="grid-row"><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>            </div><br>            <div class="grid-row"><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>            </div><br>            <div class="grid-row"><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>            </div><br>        </div><br>        <div class="tile-container"></div><br>    </div><br>    <script src="bind_polyfill.js"></script><br>    <div style="text-align:center;"><br>        <p>（↑↓←→） 键盘上下左右按键，开始游戏</p><br>        <p><a href="https://mrssz.github.io/" title="HLSSZ" target="_blank">mrssz.github.io</a></p><br>    </div></div>
+          <p><style type="text/css"><br>input {<br>    display: inline-block;<br>    background: #8f7a66;<br>    border-radius: 3px;<br>    padding: 0 20px;<br>    text-decoration: none;<br>    color: #f9f6f2;<br>    height: 40px;<br>    line-height: 42px;<br>    cursor: pointer;<br>    font: inherit;<br>    border: none;<br>    outline: none;<br>    box-sizing: border-box;<br>    font-weight: bold;<br>    margin: 0;<br>    -webkit-appearance: none;<br>    -moz-appearance: none;<br>    appearance: none;<br>}</p>
+<p>input[type=”text”], input[type=”email”] {<br>    cursor: auto;<br>    background: #fcfbf9;<br>    font-weight: normal;<br>    color: #776e65;<br>    padding: 0 15px;<br>}</p>
+<p>input[type=”text”]::-webkit-input-placeholder, input[type=”email”]::-webkit-input-placeholder {<br>    color: #9d948c;<br>}</p>
+<p>input[type=”text”]::-moz-placeholder, input[type=”email”]::-moz-placeholder {<br>    color: #9d948c;<br>}</p>
+<p>input[type=”text”]:-ms-input-placeholder, input[type=”email”]:-ms-input-placeholder {<br>    color: #9d948c;<br>}</p>
+<p>.heading:after {<br>    content: “”;<br>    display: block;<br>    clear: both;<br>}</p>
+<p>h1.title {<br>    font-size: 80px;<br>    font-weight: bold;<br>    margin: 0;<br>    display: block;<br>    float: left;<br>}</p>
+<p>@-webkit-keyframes move-up {<br>    0% {<br>        top: 25px;<br>        opacity: 1;<br>    }</p>
+<pre><code>100% {
+    top: -50px;
+    opacity: 0;
+}
+</code></pre><p>}</p>
+<p>@-moz-keyframes move-up {<br>    0% {<br>        top: 25px;<br>        opacity: 1;<br>    }</p>
+<pre><code>100% {
+    top: -50px;
+    opacity: 0;
+}
+</code></pre><p>}</p>
+<p>@keyframes move-up {<br>    0% {<br>        top: 25px;<br>        opacity: 1;<br>    }</p>
+<pre><code>100% {
+    top: -50px;
+    opacity: 0;
+}
+</code></pre><p>}</p>
+<p>.scores-container {<br>    float: right;<br>    text-align: right;<br>}</p>
+<p>.score-container, .best-container {<br>    position: relative;<br>    display: inline-block;<br>    background: #bbada0;<br>    padding: 15px 25px;<br>    font-size: 25px;<br>    height: 25px;<br>    line-height: 47px;<br>    font-weight: bold;<br>    border-radius: 3px;<br>    color: white;<br>    margin-top: 8px;<br>    text-align: center;<br>    opacity:0.5;<br>}</p>
+<p>.score-container:after, .best-container:after {<br>    position: absolute;<br>    width: 100%;<br>    top: 10px;<br>    left: 0;<br>    text-transform: uppercase;<br>    font-size: 13px;<br>    line-height: 13px;<br>    text-align: center;<br>    color: #eee4da;<br>    opacity:0.5;<br>}</p>
+<p>.score-container .score-addition, .best-container .score-addition {<br>    position: absolute;<br>    right: 30px;<br>    color: red;<br>    font-size: 25px;<br>    line-height: 25px;<br>    font-weight: bold;<br>    color: rgba(119, 110, 101, 0.9);<br>    z-index: 100;<br>    -webkit-animation: move-up 600ms ease-in;<br>    -moz-animation: move-up 600ms ease-in;<br>    animation: move-up 600ms ease-in;<br>    -webkit-animation-fill-mode: both;<br>    -moz-animation-fill-mode: both;<br>    animation-fill-mode: both;<br>    opacity:0.5;<br>}</p>
+<p>.score-container:after {<br>    content: “Score”;<br>    opacity:0.5;<br>}</p>
+<p>.best-container:after {<br>    content: “Best”;<br>    opacity:0.5;<br>}</p>
+<p>p {<br>    margin-top: 0;<br>    margin-bottom: 10px;<br>    line-height: 1.65;<br>}</p>
+<p>a {<br>    color: #776e65;<br>    font-weight: bold;<br>    text-decoration: underline;<br>    cursor: pointer;<br>}</p>
+<p>strong.important {<br>    text-transform: uppercase;<br>}</p>
+<p>hr {<br>    border: none;<br>    border-bottom: 1px solid #d8d4d0;<br>    margin-top: 20px;<br>    margin-bottom: 30px;<br>}</p>
+<p>.container {<br>    width: 500px;<br>    margin: 0 auto;<br>}</p>
+<p>@-webkit-keyframes fade-in {<br>    0% {<br>        opacity: 0;<br>    }</p>
+<pre><code>100% {
+    opacity: 1;
+}
+</code></pre><p>}</p>
+<p>@-moz-keyframes fade-in {<br>    0% {<br>        opacity: 0;<br>    }</p>
+<pre><code>100% {
+    opacity: 1;
+}
+</code></pre><p>}</p>
+<p>@keyframes fade-in {<br>    0% {<br>        opacity: 0;<br>    }</p>
+<pre><code>100% {
+    opacity: 1;
+}
+</code></pre><p>}</p>
+<p>@-webkit-keyframes slide-up {<br>    0% {<br>        margin-top: 32%;<br>    }</p>
+<pre><code>100% {
+    margin-top: 20%;
+}
+</code></pre><p>}</p>
+<p>@-moz-keyframes slide-up {<br>    0% {<br>        margin-top: 32%;<br>    }</p>
+<pre><code>100% {
+    margin-top: 20%;
+}
+</code></pre><p>}</p>
+<p>@keyframes slide-up {<br>    0% {<br>        margin-top: 32%;<br>    }</p>
+<pre><code>100% {
+    margin-top: 20%;
+}
+</code></pre><p>}</p>
+<p>.game-container {<br>    margin-top: 40px;<br>    position: relative;<br>    padding: 15px;<br>    cursor: default;<br>    -webkit-touch-callout: none;<br>    -ms-touch-callout: none;<br>    -webkit-user-select: none;<br>    -moz-user-select: none;<br>    -ms-user-select: none;<br>    -ms-touch-action: none;<br>    touch-action: none;<br>    background: #bbada0;<br>    border-radius: 6px;<br>    width: 500px;<br>    height: 500px;<br>    -webkit-box-sizing: border-box;<br>    -moz-box-sizing: border-box;<br>    box-sizing: border-box;<br>    opacity: 0.8;</p>
+<p>}</p>
+<p>.game-message {<br>    display: none;<br>    position: absolute;<br>    top: 0;<br>    right: 0;<br>    bottom: 0;<br>    left: 0;<br>    background: rgba(238, 228, 218, 0.73);<br>    z-index: 100;<br>    padding-top: 40px;<br>    text-align: center;<br>    -webkit-animation: fade-in 800ms ease 1200ms;<br>    -moz-animation: fade-in 800ms ease 1200ms;<br>    animation: fade-in 800ms ease 1200ms;<br>    -webkit-animation-fill-mode: both;<br>    -moz-animation-fill-mode: both;<br>    animation-fill-mode: both;<br>}</p>
+<p>.game-message p {<br>    font-size: 60px;<br>    font-weight: bold;<br>    height: 60px;<br>    line-height: 60px;<br>    margin-top: 222px;<br>}</p>
+<p>.game-message .lower {<br>    display: block;<br>    margin-top: 29px;<br>}</p>
+<p>.game-message .mailing-list {<br>    margin-top: 52px;<br>}</p>
+<p>.game-message .mailing-list strong {<br>    display: block;<br>    margin-bottom: 10px;<br>}</p>
+<p>.game-message .mailing-list .mailing-list-email-field {<br>    width: 230px;<br>    margin-right: 5px;<br>}</p>
+<p>.game-message a {<br>    display: inline-block;<br>    background: #8f7a66;<br>    border-radius: 3px;<br>    padding: 0 20px;<br>    text-decoration: none;<br>    color: #f9f6f2;<br>    height: 40px;<br>    line-height: 42px;<br>    cursor: pointer;<br>    margin-left: 9px;<br>}</p>
+<p>.game-message a.keep-playing-button {<br>    display: none;<br>}</p>
+<p>.game-message .score-sharing {<br>    display: inline-block;<br>    vertical-align: middle;<br>    margin-left: 10px;<br>    opacity:0.5;<br>}</p>
+<p>.game-message.game-won {<br>    background: rgba(237, 194, 46, 0.5);<br>    color: #f9f6f2;<br>}</p>
+<p>.game-message.game-won a.keep-playing-button {<br>    display: inline-block;<br>}</p>
+<p>.game-message.game-won, .game-message.game-over {<br>    display: block;<br>}</p>
+<p>.game-message.game-won p, .game-message.game-over p {<br>    -webkit-animation: slide-up 1.5s ease-in-out 2500ms;<br>    -moz-animation: slide-up 1.5s ease-in-out 2500ms;<br>    animation: slide-up 1.5s ease-in-out 2500ms;<br>    -webkit-animation-fill-mode: both;<br>    -moz-animation-fill-mode: both;<br>    animation-fill-mode: both;<br>}</p>
+<p>.game-message.game-won .mailing-list, .game-message.game-over .mailing-list {<br>    -webkit-animation: fade-in 1.5s ease-in-out 2500ms;<br>    -moz-animation: fade-in 1.5s ease-in-out 2500ms;<br>    animation: fade-in 1.5s ease-in-out 2500ms;<br>    -webkit-animation-fill-mode: both;<br>    -moz-animation-fill-mode: both;<br>    animation-fill-mode: both;<br>}</p>
+<p>.grid-container {<br>    position: absolute;<br>    z-index: 1;<br>}</p>
+<p>.grid-row {<br>    margin-bottom: 15px;<br>}</p>
+<p>.grid-row:last-child {<br>    margin-bottom: 0;<br>}</p>
+<p>.grid-row:after {<br>    content: “”;<br>    display: block;<br>    clear: both;<br>}</p>
+<p>.grid-cell {<br>    width: 106.25px;<br>    height: 106.25px;<br>    margin-right: 15px;<br>    float: left;<br>    border-radius: 3px;<br>    background: rgba(238, 228, 218, 0.35);<br>}</p>
+<p>.grid-cell:last-child {<br>    margin-right: 0;<br>}</p>
+<p>.tile-container {<br>    position: absolute;<br>    z-index: 2;<br>}</p>
+<p>.tile, .tile .tile-inner {<br>    width: 107px;<br>    height: 107px;<br>    line-height: 116.25px;<br>}</p>
+<p>.tile.tile-position-1-1 {<br>    -webkit-transform: translate(0px, 0px);<br>    -moz-transform: translate(0px, 0px);<br>    transform: translate(0px, 0px);<br>}</p>
+<p>.tile.tile-position-1-2 {<br>    -webkit-transform: translate(0px, 121px);<br>    -moz-transform: translate(0px, 121px);<br>    transform: translate(0px, 121px);<br>}</p>
+<p>.tile.tile-position-1-3 {<br>    -webkit-transform: translate(0px, 242px);<br>    -moz-transform: translate(0px, 242px);<br>    transform: translate(0px, 242px);<br>}</p>
+<p>.tile.tile-position-1-4 {<br>    -webkit-transform: translate(0px, 363px);<br>    -moz-transform: translate(0px, 363px);<br>    transform: translate(0px, 363px);<br>}</p>
+<p>.tile.tile-position-2-1 {<br>    -webkit-transform: translate(121px, 0px);<br>    -moz-transform: translate(121px, 0px);<br>    transform: translate(121px, 0px);<br>}</p>
+<p>.tile.tile-position-2-2 {<br>    -webkit-transform: translate(121px, 121px);<br>    -moz-transform: translate(121px, 121px);<br>    transform: translate(121px, 121px);<br>}</p>
+<p>.tile.tile-position-2-3 {<br>    -webkit-transform: translate(121px, 242px);<br>    -moz-transform: translate(121px, 242px);<br>    transform: translate(121px, 242px);<br>}</p>
+<p>.tile.tile-position-2-4 {<br>    -webkit-transform: translate(121px, 363px);<br>    -moz-transform: translate(121px, 363px);<br>    transform: translate(121px, 363px);<br>}</p>
+<p>.tile.tile-position-3-1 {<br>    -webkit-transform: translate(242px, 0px);<br>    -moz-transform: translate(242px, 0px);<br>    transform: translate(242px, 0px);<br>}</p>
+<p>.tile.tile-position-3-2 {<br>    -webkit-transform: translate(242px, 121px);<br>    -moz-transform: translate(242px, 121px);<br>    transform: translate(242px, 121px);<br>}</p>
+<p>.tile.tile-position-3-3 {<br>    -webkit-transform: translate(242px, 242px);<br>    -moz-transform: translate(242px, 242px);<br>    transform: translate(242px, 242px);<br>}</p>
+<p>.tile.tile-position-3-4 {<br>    -webkit-transform: translate(242px, 363px);<br>    -moz-transform: translate(242px, 363px);<br>    transform: translate(242px, 363px);<br>}</p>
+<p>.tile.tile-position-4-1 {<br>    -webkit-transform: translate(363px, 0px);<br>    -moz-transform: translate(363px, 0px);<br>    transform: translate(363px, 0px);<br>}</p>
+<p>.tile.tile-position-4-2 {<br>    -webkit-transform: translate(363px, 121px);<br>    -moz-transform: translate(363px, 121px);<br>    transform: translate(363px, 121px);<br>}</p>
+<p>.tile.tile-position-4-3 {<br>    -webkit-transform: translate(363px, 242px);<br>    -moz-transform: translate(363px, 242px);<br>    transform: translate(363px, 242px);<br>}</p>
+<p>.tile.tile-position-4-4 {<br>    -webkit-transform: translate(363px, 363px);<br>    -moz-transform: translate(363px, 363px);<br>    transform: translate(363px, 363px);<br>}</p>
+<p>.tile {<br>    position: absolute;<br>    -webkit-transition: 100ms ease-in-out;<br>    -moz-transition: 100ms ease-in-out;<br>    transition: 100ms ease-in-out;<br>    -webkit-transition-property: -webkit-transform;<br>    -moz-transition-property: -moz-transform;<br>    transition-property: transform;<br>}</p>
+<p>.tile .tile-inner {<br>    border-radius: 3px;<br>    background: #eee4da;<br>    text-align: center;<br>    font-weight: bold;<br>    z-index: 10;<br>    font-size: 40px;<br>}</p>
+<p>.tile.tile-2 .tile-inner {<br>    background: #eee4da;<br>    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);<br>}</p>
+<p>.tile.tile-4 .tile-inner {<br>    background: #ede0c8;<br>    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);<br>}</p>
+<p>.tile.tile-8 .tile-inner {<br>    color: #f9f6f2;<br>    background: #f2b179;<br>}</p>
+<p>.tile.tile-16 .tile-inner {<br>    color: #f9f6f2;<br>    background: #f59563;<br>}</p>
+<p>.tile.tile-32 .tile-inner {<br>    color: #f9f6f2;<br>    background: #f67c5f;<br>}</p>
+<p>.tile.tile-64 .tile-inner {<br>    color: #f9f6f2;<br>    background: #f65e3b;<br>    font-size: 30px;<br>}</p>
+<p>@media screen and (max-width: 520px) {<br>    .tile.tile-64 .tile-inner {<br>        font-size: 17px;<br>    }<br>}</p>
+<p>.tile.tile-128 .tile-inner {<br>    color: #f9f6f2;<br>    background: #edcf72;<br>    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);<br>    font-size: 25px;<br>}</p>
+<p>@media screen and (max-width: 520px) {<br>    .tile.tile-128 .tile-inner {<br>        font-size: 13px;<br>    }<br>}</p>
+<p>.tile.tile-256 .tile-inner {<br>    color: #f9f6f2;<br>    background: #edcc61;<br>    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);<br>    font-size: 30px;<br>}</p>
+<p>@media screen and (max-width: 520px) {<br>    .tile.tile-256 .tile-inner {<br>        font-size: 17px;<br>    }<br>}</p>
+<p>.tile.tile-512 .tile-inner {<br>    color: #f9f6f2;<br>    background: #edc850;<br>    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);<br>    font-size: 30px;<br>}</p>
+<p>@media screen and (max-width: 520px) {<br>    .tile.tile-512 .tile-inner {<br>        font-size: 17px;<br>    }<br>}</p>
+<p>.tile.tile-1024 .tile-inner {<br>    color: #f9f6f2;<br>    background: #edc53f;<br>    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);<br>    font-size: 30px;<br>}</p>
+<p>@media screen and (max-width: 520px) {<br>    .tile.tile-1024 .tile-inner {<br>        font-size: 17px;<br>    }<br>}</p>
+<p>.tile.tile-2048 .tile-inner {<br>    color: #f9f6f2;<br>    background: #edc22e;<br>    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);<br>    font-size: 30px;<br>}</p>
+<p>@media screen and (max-width: 520px) {<br>    .tile.tile-2048 .tile-inner {<br>        font-size: 17px;<br>    }<br>}</p>
+<p>.tile.tile-super .tile-inner {<br>    color: #f9f6f2;<br>    background: #3c3a32;<br>    font-size: 30px;<br>}</p>
+<p>@media screen and (max-width: 520px) {<br>    .tile.tile-super .tile-inner {<br>        font-size: 17px;<br>    }<br>}</p>
+<p>@-webkit-keyframes appear {<br>    0% {<br>        opacity: 0;<br>        -webkit-transform: scale(0);<br>        -moz-transform: scale(0);<br>        transform: scale(0);<br>    }</p>
+<pre><code>100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+</code></pre><p>}</p>
+<p>@-moz-keyframes appear {<br>    0% {<br>        opacity: 0;<br>        -webkit-transform: scale(0);<br>        -moz-transform: scale(0);<br>        transform: scale(0);<br>    }</p>
+<pre><code>100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+</code></pre><p>}</p>
+<p>@keyframes appear {<br>    0% {<br>        opacity: 0;<br>        -webkit-transform: scale(0);<br>        -moz-transform: scale(0);<br>        transform: scale(0);<br>    }</p>
+<pre><code>100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+</code></pre><p>}</p>
+<p>.tile-new .tile-inner {<br>    -webkit-animation: appear 200ms ease 100ms;<br>    -moz-animation: appear 200ms ease 100ms;<br>    animation: appear 200ms ease 100ms;<br>    -webkit-animation-fill-mode: backwards;<br>    -moz-animation-fill-mode: backwards;<br>    animation-fill-mode: backwards;<br>}</p>
+<p>@-webkit-keyframes pop {<br>    0% {<br>        -webkit-transform: scale(0);<br>        -moz-transform: scale(0);<br>        transform: scale(0);<br>    }</p>
+<pre><code>50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+</code></pre><p>}</p>
+<p>@-moz-keyframes pop {<br>    0% {<br>        -webkit-transform: scale(0);<br>        -moz-transform: scale(0);<br>        transform: scale(0);<br>    }</p>
+<pre><code>50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+</code></pre><p>}</p>
+<p>@keyframes pop {<br>    0% {<br>        -webkit-transform: scale(0);<br>        -moz-transform: scale(0);<br>        transform: scale(0);<br>    }</p>
+<pre><code>50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+</code></pre><p>}</p>
+<p>.tile-merged .tile-inner {<br>    z-index: 20;<br>    -webkit-animation: pop 200ms ease 100ms;<br>    -moz-animation: pop 200ms ease 100ms;<br>    animation: pop 200ms ease 100ms;<br>    -webkit-animation-fill-mode: backwards;<br>    -moz-animation-fill-mode: backwards;<br>    animation-fill-mode: backwards;<br>}</p>
+<p>.above-game:after {<br>    content: “”;<br>    display: block;<br>    clear: both;<br>}</p>
+<p>.game-intro {<br>    float: left;<br>    line-height: 42px;<br>    margin-bottom: 0;<br>}</p>
+<p>.restart-button {<br>    display: inline-block;<br>    background: #8f7a66;<br>    border-radius: 3px;<br>    padding: 0 20px;<br>    text-decoration: none;<br>    color: #f9f6f2;<br>    height: 40px;<br>    line-height: 42px;<br>    cursor: pointer;<br>    display: block;<br>    text-align: center;<br>    float: right;<br>    opacity:0.5;<br>}</p>
+<p>.game-explanation {<br>    margin-top: 50px;<br>}</p>
+<p>.sharing {<br>    margin-top: 20px;<br>    text-align: center;<br>}</p>
+<p>.sharing &gt; iframe, .sharing &gt; span, .sharing &gt; form {<br>    display: inline-block;<br>    vertical-align: middle;<br>}</p>
+<p>@media screen and (max-width: 520px) {<br>    html, body {<br>        font-size: 15px;<br>    }</p>
+<pre><code>body {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+h1.title {
+    font-size: 27px;
+    margin-top: 15px;
+}
+
+.container {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.score-container, .best-container {
+    margin-top: 0;
+    padding: 15px 10px;
+    min-width: 40px;
+    opacity:0.5;
+}
+
+.heading {
+    margin-bottom: 10px;
+}
+
+.game-intro {
+    width: 55%;
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.65;
+}
+
+.restart-button {
+    width: 42%;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 2px;
+    opacity:0.5;
+}
+
+.game-container {
+    margin-top: 17px;
+    position: relative;
+    padding: 10px;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -ms-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    background: #bbada0;
+    border-radius: 6px;
+    width: 280px;
+    height: 280px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+.game-message {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(238, 228, 218, 0.73);
+    z-index: 100;
+    padding-top: 40px;
+    text-align: center;
+    -webkit-animation: fade-in 800ms ease 1200ms;
+    -moz-animation: fade-in 800ms ease 1200ms;
+    animation: fade-in 800ms ease 1200ms;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.game-message p {
+    font-size: 60px;
+    font-weight: bold;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 222px;
+}
+
+.game-message .lower {
+    display: block;
+    margin-top: 29px;
+}
+
+.game-message .mailing-list {
+    margin-top: 52px;
+}
+
+.game-message .mailing-list strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.game-message .mailing-list .mailing-list-email-field {
+    width: 230px;
+    margin-right: 5px;
+}
+
+.game-message a {
+    display: inline-block;
+    background: #8f7a66;
+    border-radius: 3px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #f9f6f2;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    margin-left: 9px;
+}
+
+.game-message a.keep-playing-button {
+    display: none;
+}
+
+.game-message .score-sharing {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    opacity:0.5;
+}
+
+.game-message.game-won {
+    background: rgba(237, 194, 46, 0.5);
+    color: #f9f6f2;
+}
+
+.game-message.game-won a.keep-playing-button {
+    display: inline-block;
+}
+
+.game-message.game-won, .game-message.game-over {
+    display: block;
+}
+
+.game-message.game-won p, .game-message.game-over p {
+    -webkit-animation: slide-up 1.5s ease-in-out 2500ms;
+    -moz-animation: slide-up 1.5s ease-in-out 2500ms;
+    animation: slide-up 1.5s ease-in-out 2500ms;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.game-message.game-won .mailing-list, .game-message.game-over .mailing-list {
+    -webkit-animation: fade-in 1.5s ease-in-out 2500ms;
+    -moz-animation: fade-in 1.5s ease-in-out 2500ms;
+    animation: fade-in 1.5s ease-in-out 2500ms;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.grid-container {
+    position: absolute;
+    z-index: 1;
+}
+
+.grid-row {
+    margin-bottom: 10px;
+}
+
+.grid-row:last-child {
+    margin-bottom: 0;
+}
+
+.grid-row:after {
+    content: &quot;&quot;;
+    display: block;
+    clear: both;
+}
+
+.grid-cell {
+    width: 57.5px;
+    height: 57.5px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 3px;
+    background: rgba(238, 228, 218, 0.35);
+}
+
+.grid-cell:last-child {
+    margin-right: 0;
+}
+
+.tile-container {
+    position: absolute;
+    z-index: 2;
+}
+
+.tile, .tile .tile-inner {
+    width: 58px;
+    height: 58px;
+    line-height: 67.5px;
+}
+
+.tile.tile-position-1-1 {
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+
+.tile.tile-position-1-2 {
+    -webkit-transform: translate(0px, 67px);
+    -moz-transform: translate(0px, 67px);
+    transform: translate(0px, 67px);
+}
+
+.tile.tile-position-1-3 {
+    -webkit-transform: translate(0px, 135px);
+    -moz-transform: translate(0px, 135px);
+    transform: translate(0px, 135px);
+}
+
+.tile.tile-position-1-4 {
+    -webkit-transform: translate(0px, 202px);
+    -moz-transform: translate(0px, 202px);
+    transform: translate(0px, 202px);
+}
+
+.tile.tile-position-2-1 {
+    -webkit-transform: translate(67px, 0px);
+    -moz-transform: translate(67px, 0px);
+    transform: translate(67px, 0px);
+}
+
+.tile.tile-position-2-2 {
+    -webkit-transform: translate(67px, 67px);
+    -moz-transform: translate(67px, 67px);
+    transform: translate(67px, 67px);
+}
+
+.tile.tile-position-2-3 {
+    -webkit-transform: translate(67px, 135px);
+    -moz-transform: translate(67px, 135px);
+    transform: translate(67px, 135px);
+}
+
+.tile.tile-position-2-4 {
+    -webkit-transform: translate(67px, 202px);
+    -moz-transform: translate(67px, 202px);
+    transform: translate(67px, 202px);
+}
+
+.tile.tile-position-3-1 {
+    -webkit-transform: translate(135px, 0px);
+    -moz-transform: translate(135px, 0px);
+    transform: translate(135px, 0px);
+}
+
+.tile.tile-position-3-2 {
+    -webkit-transform: translate(135px, 67px);
+    -moz-transform: translate(135px, 67px);
+    transform: translate(135px, 67px);
+}
+
+.tile.tile-position-3-3 {
+    -webkit-transform: translate(135px, 135px);
+    -moz-transform: translate(135px, 135px);
+    transform: translate(135px, 135px);
+}
+
+.tile.tile-position-3-4 {
+    -webkit-transform: translate(135px, 202px);
+    -moz-transform: translate(135px, 202px);
+    transform: translate(135px, 202px);
+}
+
+.tile.tile-position-4-1 {
+    -webkit-transform: translate(202px, 0px);
+    -moz-transform: translate(202px, 0px);
+    transform: translate(202px, 0px);
+}
+
+.tile.tile-position-4-2 {
+    -webkit-transform: translate(202px, 67px);
+    -moz-transform: translate(202px, 67px);
+    transform: translate(202px, 67px);
+}
+
+.tile.tile-position-4-3 {
+    -webkit-transform: translate(202px, 135px);
+    -moz-transform: translate(202px, 135px);
+    transform: translate(202px, 135px);
+}
+
+.tile.tile-position-4-4 {
+    -webkit-transform: translate(202px, 202px);
+    -moz-transform: translate(202px, 202px);
+    transform: translate(202px, 202px);
+}
+
+.tile .tile-inner {
+    font-size: 25px;
+}
+
+.game-message {
+    padding-top: 0;
+}
+
+.game-message p {
+    font-size: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    margin-top: 32% !important;
+    margin-bottom: 0 !important;
+}
+
+.game-message .lower {
+    margin-top: 10px !important;
+}
+
+.game-message.game-won .score-sharing {
+    margin-top: 10px;
+}
+
+.game-message.game-over .mailing-list {
+    margin-top: 25px;
+}
+
+.game-message .mailing-list {
+    margin-top: 10px;
+}
+
+.game-message .mailing-list .mailing-list-email-field {
+    width: 180px;
+}
+
+.sharing &gt; iframe, .sharing &gt; span, .sharing &gt; form {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+</code></pre><p>}</p>
+<p>.pp-donate button {<br>    -webkit-appearance: none;<br>    -moz-appearance: none;<br>    appearance: none;<br>    border: none;<br>    font: inherit;<br>    color: inherit;<br>    display: inline-block;<br>    background: #8f7a66;<br>    border-radius: 3px;<br>    padding: 0 20px;<br>    text-decoration: none;<br>    color: #f9f6f2;<br>    height: 40px;<br>    line-height: 42px;<br>    cursor: pointer;<br>}</p>
+<p>.pp-donate button img {<br>    vertical-align: -4px;<br>    margin-right: 8px;<br>}</p>
+<p>.btc-donate {<br>    position: relative;<br>    margin-left: 10px;<br>    display: inline-block;<br>    background: #8f7a66;<br>    border-radius: 3px;<br>    padding: 0 20px;<br>    text-decoration: none;<br>    color: #f9f6f2;<br>    height: 40px;<br>    line-height: 42px;<br>    cursor: pointer;<br>}</p>
+<p>.btc-donate img {<br>    vertical-align: -4px;<br>    margin-right: 8px;<br>}</p>
+<p>.btc-donate a {<br>    color: #f9f6f2;<br>    text-decoration: none;<br>    font-weight: normal;<br>}</p>
+<p>.btc-donate .address {<br>    cursor: auto;<br>    position: absolute;<br>    width: 340px;<br>    right: 50%;<br>    margin-right: -170px;<br>    padding-bottom: 7px;<br>    top: -30px;<br>    opacity: 0;<br>    pointer-events: none;<br>    -webkit-transition: 400ms ease;<br>    -moz-transition: 400ms ease;<br>    transition: 400ms ease;<br>    -webkit-transition-property: top, opacity;<br>    -moz-transition-property: top, opacity;<br>    transition-property: top, opacity;<br>}</p>
+<p>.btc-donate .address:after {<br>    position: absolute;<br>    border-top: 10px solid #bbada0;<br>    border-right: 7px solid transparent;<br>    border-left: 7px solid transparent;<br>    content: “”;<br>    bottom: 0px;<br>    left: 50%;<br>    margin-left: -7px;<br>}</p>
+<p>.btc-donate .address code {<br>    background-color: #bbada0;<br>    padding: 10px 15px;<br>    width: 100%;<br>    border-radius: 3px;<br>    line-height: 1;<br>    font-weight: normal;<br>    font-size: 15px;<br>    font-family: Consolas, “Liberation Mono”, Courier, monospace;<br>    text-align: center;<br>}</p>
+<p>.btc-donate:hover .address, .btc-donate .address:hover .address {<br>    opacity: 1;<br>    top: -45px;<br>    pointer-events: auto;<br>}</p>
+<p>@media screen and (max-width: 480px) {<br>    .btc-donate {<br>        width: 120px;<br>    }</p>
+<pre><code>.btc-donate .address {
+    margin-right: -150px;
+    width: 300px;
+}
+
+.btc-donate .address code {
+    font-size: 13px;
+}
+
+.btc-donate .address:after {
+    left: 50%;
+    bottom: 2px;
+}
+</code></pre><p>}<br></style></p>
+<div class="container"><br>    <div class="heading"><br>        <h1 class="title">Mr.S</h1><br>        <div class="scores-container"><br>            <div class="score-container"><br>                <div class="score-addition"></div><br>            </div><br>            <div class="best-container"></div><br>        </div><br>    </div><br>    <div class="above-game"><br>        <a class="restart-button">新游戏</a><br>    </div><br>    <div class="game-container"><br>        <div class="game-message"><br>            <p><br>            </p><br>            <div class="lower"><br>                <a class="keep-playing-button">继续前进</a><br>                <a class="retry-button">再试一次</a><br>                <div class="score-sharing"></div><br>            </div><br>        </div><br>        <div class="grid-container"><br>            <div class="grid-row"><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>            </div><br>            <div class="grid-row"><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>            </div><br>            <div class="grid-row"><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>            </div><br>            <div class="grid-row"><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>                <div class="grid-cell"><br>                </div><br>            </div><br>        </div><br>        <div class="tile-container"></div><br>    </div><br>    <script src="bind_polyfill.js"></script><br>    <div style="text-align:center;"><br>        <p>（↑↓←→） 键盘上下左右按键，开始游戏</p><br>        <p><a href="https://mrssz.github.io/" title="HLSSZ" target="_blank">mrssz.github.io</a></p><br>    </div></div>
         
       </div>
       
