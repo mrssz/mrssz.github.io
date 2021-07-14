@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="php,javascript,html,css," />
+  <meta name="keywords" content="PHP,javascript,html,css," />
 
 
 
@@ -80,21 +80,17 @@
 
 
 <meta name="description" content="Windows设置右键时显示“在此处打开cmd”新建文本文档OpenHere.reg,内容如下：1234567891011121314151617181920212223242526272829Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere]@=&quot;在此处打开命令提示符&quot;&quot;Icon&quot;">
-<meta name="keywords" content="php,javascript,html,css">
+<meta name="keywords" content="PHP,javascript,html,css">
 <meta property="og:type" content="article">
 <meta property="og:title" content="零碎知识点">
 <meta property="og:url" content="http://yoursite.com/2017/01/01/零碎知识点/index.html">
 <meta property="og:site_name" content="宋不争">
 <meta property="og:description" content="Windows设置右键时显示“在此处打开cmd”新建文本文档OpenHere.reg,内容如下：1234567891011121314151617181920212223242526272829Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere]@=&quot;在此处打开命令提示符&quot;&quot;Icon&quot;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/images/py2_3_1.jpg">
-<meta property="og:image" content="http://yoursite.com/images/py2_3_22.jpg">
-<meta property="og:image" content="http://yoursite.com/images/py2_3_333.jpg">
-<meta property="og:updated_time" content="2018-12-05T04:16:28.948Z">
+<meta property="og:updated_time" content="2019-12-31T14:26:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="零碎知识点">
 <meta name="twitter:description" content="Windows设置右键时显示“在此处打开cmd”新建文本文档OpenHere.reg,内容如下：1234567891011121314151617181920212223242526272829Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere]@=&quot;在此处打开命令提示符&quot;&quot;Icon&quot;">
-<meta name="twitter:image" content="http://yoursite.com/images/py2_3_1.jpg">
 
 
 
@@ -331,8 +327,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/php/" itemprop="url" rel="index">
-                    <span itemprop="name">php</span>
+                  <a href="/categories/Others/" itemprop="url" rel="index">
+                    <span itemprop="name">Others</span>
                   </a>
                 </span>
 
@@ -372,7 +368,6 @@
 <p>双击运行OpenHere.reg</p>
 <h2 id="Ubuntu以管理员身份打开文件夹"><a href="#Ubuntu以管理员身份打开文件夹" class="headerlink" title="Ubuntu以管理员身份打开文件夹"></a>Ubuntu以管理员身份打开文件夹</h2><p>打开终端，输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo nautilus</span><br></pre></td></tr></table></figure></p>
 <h2 id="Python常见字符串操作"><a href="#Python常见字符串操作" class="headerlink" title="Python常见字符串操作"></a>Python常见字符串操作</h2><h3 id="将文件中py2的print格式改为py3的"><a href="#将文件中py2的print格式改为py3的" class="headerlink" title="将文件中py2的print格式改为py3的"></a>将文件中py2的print格式改为py3的</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="string">""</span><span class="string">"</span></span><br><span class="line"><span class="string">Created on Sat May 12 21:39:58 2018</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">@author: ssz</span></span><br><span class="line"><span class="string">"</span><span class="string">""</span></span><br><span class="line">import os</span><br><span class="line"></span><br><span class="line">py_file = []</span><br><span class="line">py_file_path = []</span><br><span class="line">work_dir = <span class="string">'C:/Users/hlssz/Desktop/krother-python-for-biologists-e47cf55735c7/02-data_management/04-parsing_data/test/'</span></span><br><span class="line"><span class="keyword">for</span> parent, dirnames, filenames <span class="keyword">in</span> os.walk(work_dir):</span><br><span class="line">    <span class="keyword">for</span> filename <span class="keyword">in</span> filenames:</span><br><span class="line">        file_path = os.path.join(parent, filename)</span><br><span class="line">        <span class="keyword">if</span> filename[len(filename)-3:len(filename)] == <span class="string">'.py'</span>:</span><br><span class="line">            py_file.append(filename)</span><br><span class="line">            py_file_path.append(file_path)</span><br><span class="line"><span class="comment">#print(py_file)</span></span><br><span class="line"><span class="comment">#print(py_file_path)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> modi_file <span class="keyword">in</span> py_file:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">'modifile:'</span>,modi_file)</span><br><span class="line">    out_put = []</span><br><span class="line">    <span class="keyword">for</span> line <span class="keyword">in</span> open(<span class="string">'C:/Users/hlssz/Desktop/krother-python-for-biologists-e47cf55735c7/02-data_management/04-parsing_data/test/'</span>+ modi_file):</span><br><span class="line">        length = line.strip()</span><br><span class="line">        <span class="comment">#print(length)</span></span><br><span class="line">        <span class="keyword">if</span> <span class="string">'print'</span> <span class="keyword">in</span> length:</span><br><span class="line">            <span class="comment">#print('FIND:PRINT:',length.find('print'))</span></span><br><span class="line">            <span class="comment">#print(length)</span></span><br><span class="line">            <span class="comment">#print(length[length.find('print')])</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'原始length：'</span>,length)</span><br><span class="line">            lg = list(length)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'变为list后的length:'</span>,lg)</span><br><span class="line">            lg[length.find(<span class="string">'print'</span>)+5] = <span class="string">'('</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'前缀修改后的lg:'</span>,lg)</span><br><span class="line">            length = <span class="string">''</span>.join(lg)</span><br><span class="line">            length = length+<span class="string">')'</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'修改完后缀的length:'</span>,length)</span><br><span class="line">        out_put.append(length + <span class="string">'\n'</span>)</span><br><span class="line">    open(<span class="string">'C:/Users/hlssz/Desktop/krother-python-for-biologists-e47cf55735c7/02-data_management/04-parsing_data/test/'</span>+ modi_file,<span class="string">'w'</span>).writelines(out_put)</span><br></pre></td></tr></table></figure>
-<p><img src="/images/py2_3_1.jpg" alt="“结果”"><br><img src="/images/py2_3_22.jpg" alt="“结果”"><br><img src="/images/py2_3_333.jpg" alt="“结果”"></p>
 <h2 id="PHP与JavaScript数据交互"><a href="#PHP与JavaScript数据交互" class="headerlink" title="PHP与JavaScript数据交互"></a>PHP与JavaScript数据交互</h2><p>1、php直接向JavaScript传递参数变量<br>本质，php向客户端显示第一变量值，为JavaScript代码，然后JavaScript代码发生作用。<br>$one =1;<br>alert(&lt;?php echo $one; ?&gt;);<br>有时候会用<script src="xxx.php?id=1"></script>这种形式。</p>
 <p>举一个简单的例子来说明:<br>如在页面a.html中用下面这句调用:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"b.php?action=test"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> &gt;</span><br><span class="line">alert(jstext);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
 <p>在b.php中有这样一段PHP代码:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$action</span>=<span class="variable">$_GET</span>[<span class="string">'action'</span>];</span><br><span class="line">//<span class="built_in">echo</span> <span class="string">"var jstext='<span class="variable">$action</span>'"</span>; //输出一句JS语句,生成一个JS变量,并赋颠值为PHP变量 <span class="variable">$action</span>的值</span><br><span class="line">//<span class="built_in">echo</span> <span class="string">"var jstext='aa'"</span>;</span><br><span class="line"><span class="built_in">echo</span> <span class="string">"var jstext="</span>.<span class="string">"'<span class="variable">$action</span>'"</span>;</span><br></pre></td></tr></table></figure></p>
@@ -401,6 +396,7 @@
 <p>在url加入&lt;%=basePath%&gt;如：<a href="http://192.168.66.66:8089/abc/" target="_blank" rel="noopener">http://192.168.66.66:8089/abc/</a></p>
 <p>2.直接请求服务器路径<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$&#123;pageContext.request.contextPath&#125;</span></span><br></pre></td></tr></table></figure></p>
 <p>请求到webapp那一层</p>
+<h2 id="Python两个list相乘-相加"><a href="#Python两个list相乘-相加" class="headerlink" title="Python两个list相乘/相加"></a>Python两个list相乘/相加</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">l1 = [2,2,2,2]</span><br><span class="line">l2 = [3,3,3,3]</span><br><span class="line">prod = map(lambda (a,b):a*b, zip(l1,l2))</span><br><span class="line"><span class="built_in">print</span> prod</span><br><span class="line"><span class="comment"># [6, 6, 6, 6]</span></span><br><span class="line">add = map(lambda (a,b):a+b, zip(l1,l2))</span><br><span class="line"><span class="built_in">print</span> add</span><br><span class="line"><span class="comment"># [5, 5, 5, 5]</span></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -418,7 +414,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/php/" rel="tag"># php</a>
+            <a href="/tags/PHP/" rel="tag"># PHP</a>
           
             <a href="/tags/javascript/" rel="tag"># javascript</a>
           
@@ -530,7 +526,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-count">27</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -541,7 +537,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">15</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -552,7 +548,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-count">45</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -585,7 +581,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows设置右键时显示“在此处打开cmd”"><span class="nav-number">1.</span> <span class="nav-text">Windows设置右键时显示“在此处打开cmd”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu以管理员身份打开文件夹"><span class="nav-number">2.</span> <span class="nav-text">Ubuntu以管理员身份打开文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python常见字符串操作"><span class="nav-number">3.</span> <span class="nav-text">Python常见字符串操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#将文件中py2的print格式改为py3的"><span class="nav-number">3.1.</span> <span class="nav-text">将文件中py2的print格式改为py3的</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PHP与JavaScript数据交互"><span class="nav-number">4.</span> <span class="nav-text">PHP与JavaScript数据交互</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript获取内容"><span class="nav-number">5.</span> <span class="nav-text">JavaScript获取内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Redis知识点"><span class="nav-number">6.</span> <span class="nav-text">Redis知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Redis安装后任何-redis-gt-出现错误"><span class="nav-number">6.1.</span> <span class="nav-text">Redis安装后任何$redis-&gt;()出现错误</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PHP连接Redis"><span class="nav-number">6.2.</span> <span class="nav-text">PHP连接Redis</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows右键添加打开命令行："><span class="nav-number">7.</span> <span class="nav-text">Windows右键添加打开命令行：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#各种HTML锚点跳转方式："><span class="nav-number">8.</span> <span class="nav-text">各种HTML锚点跳转方式：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-js控制锚点跳转"><span class="nav-number">8.1.</span> <span class="nav-text">1 js控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-html控制锚点跳转"><span class="nav-number">8.2.</span> <span class="nav-text">2 html控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-跨页面锚点跳转"><span class="nav-number">8.3.</span> <span class="nav-text">3 跨页面锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-js控制锚点跳转在HTML中实现方式"><span class="nav-number">8.4.</span> <span class="nav-text">4 js控制锚点跳转在HTML中实现方式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将-Python-脚本打包成可执行文件："><span class="nav-number">9.</span> <span class="nav-text">将 Python 脚本打包成可执行文件：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python-获取当前操作系统用户名（windows与linux均可行）："><span class="nav-number">10.</span> <span class="nav-text">Python 获取当前操作系统用户名（windows与linux均可行）：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Tomcat启动超时问题："><span class="nav-number">11.</span> <span class="nav-text">Tomcat启动超时问题：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JSP页面获取服务器路径方式"><span class="nav-number">12.</span> <span class="nav-text">JSP页面获取服务器路径方式</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows设置右键时显示“在此处打开cmd”"><span class="nav-number">1.</span> <span class="nav-text">Windows设置右键时显示“在此处打开cmd”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu以管理员身份打开文件夹"><span class="nav-number">2.</span> <span class="nav-text">Ubuntu以管理员身份打开文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python常见字符串操作"><span class="nav-number">3.</span> <span class="nav-text">Python常见字符串操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#将文件中py2的print格式改为py3的"><span class="nav-number">3.1.</span> <span class="nav-text">将文件中py2的print格式改为py3的</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PHP与JavaScript数据交互"><span class="nav-number">4.</span> <span class="nav-text">PHP与JavaScript数据交互</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript获取内容"><span class="nav-number">5.</span> <span class="nav-text">JavaScript获取内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Redis知识点"><span class="nav-number">6.</span> <span class="nav-text">Redis知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Redis安装后任何-redis-gt-出现错误"><span class="nav-number">6.1.</span> <span class="nav-text">Redis安装后任何$redis-&gt;()出现错误</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PHP连接Redis"><span class="nav-number">6.2.</span> <span class="nav-text">PHP连接Redis</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows右键添加打开命令行："><span class="nav-number">7.</span> <span class="nav-text">Windows右键添加打开命令行：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#各种HTML锚点跳转方式："><span class="nav-number">8.</span> <span class="nav-text">各种HTML锚点跳转方式：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-js控制锚点跳转"><span class="nav-number">8.1.</span> <span class="nav-text">1 js控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-html控制锚点跳转"><span class="nav-number">8.2.</span> <span class="nav-text">2 html控制锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-跨页面锚点跳转"><span class="nav-number">8.3.</span> <span class="nav-text">3 跨页面锚点跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-js控制锚点跳转在HTML中实现方式"><span class="nav-number">8.4.</span> <span class="nav-text">4 js控制锚点跳转在HTML中实现方式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将-Python-脚本打包成可执行文件："><span class="nav-number">9.</span> <span class="nav-text">将 Python 脚本打包成可执行文件：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python-获取当前操作系统用户名（windows与linux均可行）："><span class="nav-number">10.</span> <span class="nav-text">Python 获取当前操作系统用户名（windows与linux均可行）：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Tomcat启动超时问题："><span class="nav-number">11.</span> <span class="nav-text">Tomcat启动超时问题：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JSP页面获取服务器路径方式"><span class="nav-number">12.</span> <span class="nav-text">JSP页面获取服务器路径方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python两个list相乘-相加"><span class="nav-number">13.</span> <span class="nav-text">Python两个list相乘/相加</span></a></li></ol></div>
             
 
           </div>
@@ -605,7 +601,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
